@@ -22,4 +22,4 @@ var judgeCircle = function(moves) {
 };
 
 console.log(judgeCircle("UD"));
-console.log(judgeCircle("ULDRDRsUL"));
+console.log(judgeCircle("ULDRDRUL"));
