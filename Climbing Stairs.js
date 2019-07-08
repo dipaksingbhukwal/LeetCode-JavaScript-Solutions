@@ -3,6 +3,7 @@
  * @return {number}
  */
 var climbStairs = function(n) {
+  // Below solution works with time complexity O(n) and space comlexity O(n).
   var ways = new Array(n);
   ways[0] = 1;
   ways[1] = 1;
@@ -11,6 +12,7 @@ var climbStairs = function(n) {
   }
   return ways[n];
 
+  // Below solutions works using recursion
   // if(n==0 || n==1) return 1;
   // ways = climbStairs(n-1)+climbStairs(n-2);
   // return ways;
